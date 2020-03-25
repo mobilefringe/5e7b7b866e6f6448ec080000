@@ -111,7 +111,7 @@
         $('.flexslider').flexslider({
             animation: "fade",
         });
-        get_insta("/instagram.json", 4, 'standard_resolution', render_instagram);
+        get_insta("https://preview-5e7b7b866e6f6448ec080000.codecloudapp.com/instagram.json", 4, 'standard_resolution', render_instagram);
         show_content();
         if(getPopups().length > 0){
             var popup = getPopups()[0];
